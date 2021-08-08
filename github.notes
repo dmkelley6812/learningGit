@@ -1,0 +1,58 @@
+
+
+Think of github like Google Docs.
+
+
+
+--- 	Imagine that you have an empty folder in My Documents. Your coworker has a folder full of project files for a web application
+--- you need to start working on at your new job. Without github, you would need to copy all the files from her folder and paste
+--- them into your empty folder.
+
+- The problem is: If your coworker modifies files and you modify files, you're always copying and pasting back and forth. it's a mess
+This is where 'Source Control' comes in.
+
+
+- Github is a tool you'll be using EVERYDAY at your workplace in web development.
+
+
+1. Create a github account
+2. Create a repository on github website.
+3. Click "clone repository".
+	- Copy the HTTPS link.
+4. In your terminal, type git clone <link>
+
+
+----------------
+Useful commands:
+----------------
+
+-git status- //Checks for any file changes that haven't been committed.
+-git add - //Adds untracked files to be committed to the main branch
+	- git add . //The . adds all modified files to be committed.
+-git commit - //Once files are added, they are staged to be committed. Run 'git commit' to complete. 
+	- git commit -m allows you to tag on a message // git commit -m "Added html file"
+-git push - //This is the final step that pushes the changes to the repository. 
+-git pull - //This pulls the latest from github and updates the files on your local computer.
+
+
+
+- We need to be careful making commits into master as this can potentially break a website if someone doesn't realize something has been modified.
+
+
+============
+Branching:
+============
+
+- Branching allows you to work on your own 'branch' without modifying the 'main' or 'live' code.
+- Once your team has reviewed and tested your code and verified it works, it can then be pushed to the 'main' branch.
+
+
+----------
+Commands:
+----------
+
+-git branch - // Lists all of the branches available in the repository
+-git branch newBranchName- // Creates a new branch
+-git checkout newBranchName - // Changes your working directory to whichever branch you specify.
+
+
