@@ -56,3 +56,22 @@ Commands:
 -git checkout newBranchName - // Changes your working directory to whichever branch you specify.
 
 
+
+
+
+============================
+Contributing to Open Source:
+============================
+- fork means to copy over the entire project to your github profile
+	- forking makes a copy and allows us to own our own version
+
+Shortcut to create a new branch:
+	git checkout -b branchName
+
+Shortcut to push to main branch:
+	git push origin main 
+
+To update a forked repository:
+	git pull upstream main 
+
+	
